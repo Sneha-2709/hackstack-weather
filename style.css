@@ -107,3 +107,33 @@ body {
   display: none;
   color: red;
 }
+.forecast {
+    display: none;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 20px;
+}
+.forecast-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.forecast-card {
+    flex: 1;
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 10px 6px;
+    text-align: center;
+}
+.forecast-day { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.forecast-icon { width: 40px; height: 40px; margin: 4px auto; }
+.forecast-temp { font-size: 15px; font-weight: 600; margin-top: 4px; }
+.forecast-condition { font-size: 11px; opacity: 0.75; margin-top: 2px; }
