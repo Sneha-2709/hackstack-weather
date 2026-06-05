@@ -7,13 +7,13 @@ const weatherIcon = document.querySelector(".weather-icon");
 
 function getIconSrc(condition) {
     switch (condition) {
-        case "Clouds":  return "img/clouds.png";
-        case "Clear":   return "img/clear.png";
-        case "Rain":    return "img/rain.png";
-        case "Drizzle": return "img/drizzle.png";
-        case "Mist":    return "img/mist.png";
-        case "Snow":    return "img/snow.png";
-        default:        return "img/clear.png";
+        case "Clouds":  return "clouds.png";
+        case "Clear":   return "clear.png";
+        case "Rain":    return "rain.png";
+        case "Drizzle": return "drizzle.png";
+        case "Mist":    return "mist.png";
+        case "Snow":    return "snow.png";
+        default:        return "clear.png";
     }
 }
 
